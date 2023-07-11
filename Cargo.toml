@@ -1,0 +1,15 @@
+[package]
+name = "bytemuck-based-parsing-benchmark"
+version = "0.1.0"
+edition = "2021"
+
+[dev-dependencies]
+criterion = "0.3"
+rand = "0.8.5"
+
+[[bench]]
+name = "rand_benchmark"
+harness = false
+
+[dependencies]
+bytemuck = "1.13.1"
